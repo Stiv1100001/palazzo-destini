@@ -1,9 +1,25 @@
+@font-face {
+    font-family: Cardinal;
+    src: url("../fonts/Cardinal.ttf");
+}
+
+@font-face {
+    font-family: Misterius;
+    src: url("../fonts/Mysterious\ Elegance.ttf");
+}
+
+@font-face {
+    font-family: Italian;
+    src: url("../fonts/Italian.ttf");
+}
+
 :root {
     --bg: black;
 }
 
 body {
     background-color: var(--bg);
+    font-family: Misterius;
 }
 
 *::-webkit-scrollbar {
@@ -13,4 +29,16 @@ body {
 * {
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+
+.cardinal {
+    font-family: Cardinal;
+}
+
+.misterius {
+    font-family: Misterius;
+}
+
+.italian {
+    font-family: Italian;
 }

@@ -1,14 +1,14 @@
 <template>
-  <div class="row justify-content-center card-bg">
-    <div class="col-12 text-center">
-      <span class="display-3">{{ title }}</span>
+  <div class="row justify-content-center card-bg py-2">
+    <div class="col-12 col-md-10 col-lg-8 text-center">
+      <span class="display-3 cardinal">{{ title }}</span>
     </div>
     <div class="col-8 border-bottom border-1 border-dark my-3"></div>
-    <div class="col-7 text-center">
+    <div class="col-10 col-lg-7 text-center">
       <p v-if="incipit.length > 0" class="fst-italic" v-html="incipit"></p>
       <button class="btn border border-1 mb-3" @click="display = !display">{{ display ? 'Chiudi' : 'Espandi' }}</button>
     </div>
-    <div class="col-6 overflow-hidden expandable" :class="display ? `text-${align}` : `text-${align} h-0`">
+    <div class="col-10 col-lg-8 overflow-hidden expandable" :class="display ? `text-${align}` : `text-${align} h-0`">
       <slot></slot>
     </div>
   </div>

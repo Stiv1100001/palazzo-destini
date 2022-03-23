@@ -2,6 +2,8 @@
 import Video from './components/Video.vue';
 import Title from './components/Title.vue';
 import Card from './components/Card.vue';
+import Image from './components/Image.vue';
+import Hand from './components/Hand.vue';
 </script>
 
 <template>
@@ -10,9 +12,23 @@ import Card from './components/Card.vue';
       <Video />
     </section>
 
-    <section id="welcome" class="container mb-4 text-white">
+    <Image image="castello-logo.png" class="" />
+
+    <section id="welcome" class="container mb-2 text-white">
       <Title />
     </section>
+
+    <Hand
+      :text="
+        `NON TI PREOCCUPAR DEI <br>
+SOGNI TUOI PIU’ DISPARATI <br>
+SE LI HAI PERSI O SE PER<br>
+CASO TI SONO STATI RUBATI<br>
+CERCARLI TU POTRAI NEI<br>
+LUOGHI INESPLORATI<br>
+DEL PALAZZO DEI DESTINI INCROCIATI`.toLowerCase()
+      "
+    />
 
     <section id="sinfonia" class="container mb-4">
       <Card
@@ -55,7 +71,7 @@ import Card from './components/Card.vue';
       </Card>
     </section>
 
-    <section id="ambientazione" class="container mb-4">
+    <section id="ambientazione" class="container mb-5">
       <Card title="La Nostra Ambientazione"
         ><p>
           La nostra ambientazione di divide in cinque macro regioni, ognuna con caratteristiche e peculiarità proprie.
@@ -102,7 +118,15 @@ import Card from './components/Card.vue';
       >
     </section>
 
-    <section id="palazzo" class="container mb-4">
+    <Hand
+      text="In mezzo a un fitto bosco, un palazzo dava rifugio a quanti la notte aveva sorpreso in viaggio: cavalieri e dame, cortei reali e semplici viandanti. 
+Passai per un ponte levatoio sconnesso, smontai di sella in una corte buia, stallieri silenziosi presero in consegna il mio cavallo. Ero senza fiato; le gambe mi reggevano appena: da quando ero entrato nel bosco tali erano state le prove che mi erano occorse, gli incontri, le apparizioni, i duelli, che non riuscivo a ridare un ordine né ai movimenti né ai pensieri.
+"
+    />
+
+    <!-- <Image image="10.png" /> -->
+
+    <section id="palazzo" class="container">
       <Card
         title="Il Palazzo dei Destini Incrociati"
         incipit="Scorre, il filo del fato. 
@@ -152,6 +176,8 @@ Indossala, caro lettore, e benvenuto.
       </Card>
     </section>
 
+    <Image image="6.png" />
+
     <section id="grv" class="container mb-4">
       <Card
         title="Il Gioco di Ruolo dal Vivo"
@@ -190,7 +216,7 @@ parlare di cosa sia un Gioco di Ruolo dal Vivo, anche detto Larp. Per darvi un i
       </Card>
     </section>
 
-    <section id="new-game" class="container mb-4">
+    <section id="new-game" class="container">
       <Card
         title="Un Nuovo Modo di Giocare"
         incipit="Nel mondo del Gioco di Ruolo dal Vivo esistono essenzialmente due grandi tipologie di evento: le Campagne Continuative e le OneShot…"
@@ -246,8 +272,10 @@ parlare di cosa sia un Gioco di Ruolo dal Vivo, anche detto Larp. Per darvi un i
       </Card>
     </section>
 
+    <Image image="8.png" />
+
     <section id="golden-rule" class="container mb-4">
-      <Card title="Le Rogle d'Oro del LARP" align="start">
+      <Card title="Le Regole d'Oro del LARP" align="start">
         <ul>
           <li class="list-unstyled mb-2 border-bottom border-1">
             Rimani sempre nel personaggio: con le parole, con le azioni e coi pensieri. Non uscire mai dal gioco, non
@@ -303,11 +331,13 @@ parlare di cosa sia un Gioco di Ruolo dal Vivo, anche detto Larp. Per darvi un i
       </Card>
     </section>
 
-    <section id="rules" class="container mb-4">
+    <section id="rules" class="container">
       <Card title="Il Regolamento e Regole Speciali"></Card>
     </section>
 
-    <section id="pgos" class="container mb-4">
+    <Image image="7.png" />
+
+    <section id="pgos" class="container">
       <Card
         title="I PGOS del Palazzo dei Destini Incrociati"
         incipit="Cos'è, alla fine, una maschera? <br>
@@ -340,6 +370,8 @@ La lista sarà disponibile a breve
         </p>
       </Card>
     </section>
+
+    <Image image="logo.png" />
   </main>
 </template>
 
