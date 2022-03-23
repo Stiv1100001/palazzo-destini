@@ -18,17 +18,15 @@ import Hand from './components/Hand.vue';
       <Title />
     </section>
 
-    <Hand
-      :text="
-        `NON TI PREOCCUPAR DEI <br>
-SOGNI TUOI PIU’ DISPARATI <br>
-SE LI HAI PERSI O SE PER<br>
-CASO TI SONO STATI RUBATI<br>
-CERCARLI TU POTRAI NEI<br>
-LUOGHI INESPLORATI<br>
-DEL PALAZZO DEI DESTINI INCROCIATI`.toLowerCase()
-      "
-    />
+    <Hand>
+      NON TI PREOCCUPAR DEI <br />
+      SOGNI TUOI PIU’ DISPARATI <br />
+      SE LI HAI PERSI O SE PER<br />
+      CASO TI SONO STATI RUBATI<br />
+      CERCARLI TU POTRAI NEI<br />
+      LUOGHI INESPLORATI<br />
+      DEL PALAZZO DEI DESTINI INCROCIATI
+    </Hand>
 
     <section id="sinfonia" class="container mb-4">
       <Card
@@ -118,13 +116,13 @@ DEL PALAZZO DEI DESTINI INCROCIATI`.toLowerCase()
       >
     </section>
 
-    <Hand
-      text="In mezzo a un fitto bosco, un palazzo dava rifugio a quanti la notte aveva sorpreso in viaggio: cavalieri e dame, cortei reali e semplici viandanti. 
-Passai per un ponte levatoio sconnesso, smontai di sella in una corte buia, stallieri silenziosi presero in consegna il mio cavallo. Ero senza fiato; le gambe mi reggevano appena: da quando ero entrato nel bosco tali erano state le prove che mi erano occorse, gli incontri, le apparizioni, i duelli, che non riuscivo a ridare un ordine né ai movimenti né ai pensieri.
-"
-    />
-
-    <!-- <Image image="10.png" /> -->
+    <Hand>
+      In mezzo a un fitto bosco, un palazzo dava rifugio a quanti la notte aveva sorpreso in viaggio: cavalieri e dame,
+      cortei reali e semplici viandanti. Passai per un ponte levatoio sconnesso, smontai di sella in una corte buia,
+      stallieri silenziosi presero in consegna il mio cavallo. Ero senza fiato; le gambe mi reggevano appena: da quando
+      ero entrato nel bosco tali erano state le prove che mi erano occorse, gli incontri, le apparizioni, i duelli, che
+      non riuscivo a ridare un ordine né ai movimenti né ai pensieri.
+    </Hand>
 
     <section id="palazzo" class="container">
       <Card
@@ -277,24 +275,24 @@ parlare di cosa sia un Gioco di Ruolo dal Vivo, anche detto Larp. Per darvi un i
     <section id="golden-rule" class="container mb-4">
       <Card title="Le Regole d'Oro del LARP" align="start">
         <ul>
-          <li class="list-unstyled mb-2 border-bottom border-1">
+          <li class="list-unstyled mb-2 border-bottom border-1 border-dark">
             Rimani sempre nel personaggio: con le parole, con le azioni e coi pensieri. Non uscire mai dal gioco, non
             parlare d’altro: il gioco è bello ed emozionante se tutti lo rendono vero e vivo a beneficio degli altri
             partecipanti.
           </li>
-          <li class="list-unstyled mb-2 border-bottom border-1">
+          <li class="list-unstyled mb-2 border-bottom border-1 border-dark">
             A ogni azione, una reazione: se un altro personaggio ti rivela un segreto, ti insulta, ti nomina suo vice,
             ti pugnala a tradimento... reagisci. Non importa che cosa fai o dici, ma fai qualcosa, possibilmente
             qualcosa di appropriato, di divertente, di drammatico. In un larp nessuna azione deve cadere nel vuoto.
           </li>
-          <li class="list-unstyled mb-2 border-bottom border-1">
+          <li class="list-unstyled mb-2 border-bottom border-1 border-dark">
             Accetta le azioni altrui: in un larp ciascuno è regista di se stesso. Non mettere mai in dubbio le azioni o
             la buona fede degli altri e non aspettarti mai da loro una reazione specifica. Prendi sempre per buono tutto
             quello che succede e gioca di conseguenza. In un larp non c’è copione, non ci sono prove e non si rigirano
             le scene; non tutto sarà perfetto, ma tutto sarà convincente, se decidi di crederci.
           </li>
 
-          <li class="list-unstyled mb-2 border-bottom border-1">
+          <li class="list-unstyled mb-2 border-bottom border-1 border-dark">
             Quando si interpretano situazioni drammatiche insieme ad altri giocatori, è bene avere un semplice set di
             regole base per gestire al meglio il tuo coinvolgimento senza imbarazzo o fastidio. Vogliamo che tu sia in
             grado di comunicare chiaramente i tuoi limiti, e decidere l’intensità di gioco che preferisci senza
@@ -302,18 +300,18 @@ parlare di cosa sia un Gioco di Ruolo dal Vivo, anche detto Larp. Per darvi un i
             farsi male.
           </li>
 
-          <li class="list-unstyled mb-2 border-bottom border-1">
+          <li class="list-unstyled mb-2 border-bottom border-1 border-dark">
             Se durante il gioco succede qualcosa che trovi troppo sgradevole o invadente, puoi (e devi!) usare la frase
             di sicurezza “Vacci piano!”: ciò indicherà all’altro giocatore che deve evitare di essere troppo realistico,
             lasciarti spazio, abbassare la tensione, badare di non farti male.
           </li>
 
-          <li class="list-unstyled mb-2 border-bottom border-1">
+          <li class="list-unstyled mb-2 border-bottom border-1 border-dark">
             Non c’è nulla di male ad usare il “Vacci piano” e ricordati sempre di obbedire se qualcuno te lo dice:
             ciascuno ha la sua sensibilità e il suo metro di giudizio e tu devi rispettarli ciecamente.
           </li>
 
-          <li class="list-unstyled mb-2 border-bottom border-1">
+          <li class="list-unstyled mb-2 border-bottom border-1 border-dark">
             Più spesso, può capitare che un giocatore sia troppo prudente o timido e, non volendo rischiare di
             infastidire l’altra persona, interpreti una scena in modo fin troppo astratto. In questi casi puoi usare la
             frase di sicurezza “È tutto qui?”: indica all’altro giocatore che, se vuole, può andarci un po’ più pesante,

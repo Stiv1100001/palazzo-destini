@@ -2,7 +2,9 @@
   <div class="container text-center text-white my-5 fs-3">
     <div class="d-flex flex-column align-items-center">
       <img src="/img/gnagna.png" alt="" />
-      <p class="italian sized m-0" v-html="text"></p>
+      <p class="italian sized m-0">
+        <slot></slot>
+      </p>
       <img src="/img/gnagna.png" alt="" class="" />
     </div>
   </div>
@@ -23,6 +25,6 @@ img {
 }
 
 .sized {
-  max-width: 50%;
+  max-width: 70%;
 }
 </style>

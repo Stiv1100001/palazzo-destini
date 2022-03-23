@@ -53,4 +53,8 @@ const props = defineProps({
 .h-0 {
   max-height: 0;
 }
+
+.btn:focus {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.367);
+}
 </style>
