@@ -13,11 +13,16 @@ export default {};
 <style scoped>
 #video {
   max-width: 100vw;
-  height: 50vh;
 }
 
 video {
   width: 50%;
+}
+
+@media screen and (max-width: 991px) {
+  video {
+    width: 75%;
+  }
 }
 
 @media screen and (max-width: 768px) {
