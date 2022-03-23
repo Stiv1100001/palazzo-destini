@@ -11,6 +11,9 @@ const props = defineProps({
   image: {
     type: String,
   },
+  size: {
+    type: String,
+  },
 });
 </script>
 
