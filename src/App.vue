@@ -10,11 +10,11 @@ import Card from './components/Card.vue';
       <Video />
     </section>
 
-    <section id="welcome" class="mb-4">
+    <section id="welcome" class="container mb-4 text-white">
       <Title />
     </section>
 
-    <section id="sinfonia" class="mb-4">
+    <section id="sinfonia" class="container mb-4">
       <Card
         title="La Sinfonia dei Sette"
         incipit="Così nacque Fulcron, l’Anello, e con esso le razze dei mortali che lo abitano. Ere dopo la sua creazione,
@@ -55,7 +55,7 @@ import Card from './components/Card.vue';
       </Card>
     </section>
 
-    <section id="ambientazione" class="mb-4">
+    <section id="ambientazione" class="container mb-4">
       <Card title="La Nostra Ambientazione"
         ><p>
           La nostra ambientazione di divide in cinque macro regioni, ognuna con caratteristiche e peculiarità proprie.
@@ -102,7 +102,7 @@ import Card from './components/Card.vue';
       >
     </section>
 
-    <section id="palazzo" class="mb-4">
+    <section id="palazzo" class="container mb-4">
       <Card
         title="Il Palazzo dei Destini Incrociati"
         incipit="Scorre, il filo del fato. 
@@ -152,7 +152,7 @@ Indossala, caro lettore, e benvenuto.
       </Card>
     </section>
 
-    <section id="grv" class="mb-4">
+    <section id="grv" class="container mb-4">
       <Card
         title="Il Gioco di Ruolo dal Vivo"
         incipit="Fulcron è il mondo fantastico in cui sono ambientate le nostre fantastiche storie, ma prima di addentrarti nei suoi territori inesplorati forse è meglio
@@ -190,7 +190,7 @@ parlare di cosa sia un Gioco di Ruolo dal Vivo, anche detto Larp. Per darvi un i
       </Card>
     </section>
 
-    <section id="new-game" class="mb-4">
+    <section id="new-game" class="container mb-4">
       <Card
         title="Un Nuovo Modo di Giocare"
         incipit="Nel mondo del Gioco di Ruolo dal Vivo esistono essenzialmente due grandi tipologie di evento: le Campagne Continuative e le OneShot…"
@@ -246,7 +246,7 @@ parlare di cosa sia un Gioco di Ruolo dal Vivo, anche detto Larp. Per darvi un i
       </Card>
     </section>
 
-    <section id="golden-rule">
+    <section id="golden-rule" class="container mb-4">
       <Card title="Le Rogle d'Oro del LARP" align="start">
         <ul>
           <li class="list-unstyled mb-2 border-bottom border-1">
@@ -303,11 +303,11 @@ parlare di cosa sia un Gioco di Ruolo dal Vivo, anche detto Larp. Per darvi un i
       </Card>
     </section>
 
-    <section id="rules">
+    <section id="rules" class="container mb-4">
       <Card title="Il Regolamento e Regole Speciali"></Card>
     </section>
 
-    <section id="pgos">
+    <section id="pgos" class="container mb-4">
       <Card
         title="I PGOS del Palazzo dei Destini Incrociati"
         incipit="Cos'è, alla fine, una maschera? <br>
