@@ -29,13 +29,17 @@
             Aprile quando si entrerà alla villa nel momento della segreteria, e di munirsi ed indossare la mascherina
             quando saremo nei luoghi interni ed affollati.
           </p>
+
+          <RouterButton to="/" text="Torna alla Home" />
         </div>
       </div>
     </div>
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import RouterButton from '../components/RouterButton.vue';
+</script>
 
 <style>
 .card-bg {
