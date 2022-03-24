@@ -29,9 +29,14 @@ const props = defineProps({
 </script>
 
 <style scoped>
-/* .flip-card {
-  perspective: 1000px;
-} */
+.flip-card {
+  transition: box-shadow 0.5s, filter 0.5s;
+  filter: brightness(0.9);
+}
+.flip-card:hover {
+  box-shadow: 0 0 0.5rem 0.25rem white;
+  filter: brightness(1.25);
+}
 
 .flip-card-inner {
   transition: transform 0.6s;
