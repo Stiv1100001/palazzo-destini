@@ -2,10 +2,10 @@
   <div class="flip-card" :class="rotated ? 'rotated' : ''" @click="rotated = !rotated">
     <div class="flip-card-inner w-100 h-100 position-relative">
       <div class="flip-card-front position-absolute w-100 h-100">
-        <img :src="`/img/tarots/down/${down}`" alt="Tarot" class="img-fluid" />
+        <img :src="`/img/tarots/down/${down}`" alt="Tarot" class="img-fluid rounded-3" />
       </div>
       <div class="flip-card-back w-100 h-100">
-        <img :src="`/img/tarots/up/${up}`" alt="Tarot" class="img-fluid" />
+        <img :src="`/img/tarots/up/${up}`" alt="Tarot" class="img-fluid rounded-3" />
       </div>
     </div>
   </div>
