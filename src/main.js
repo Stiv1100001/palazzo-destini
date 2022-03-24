@@ -10,6 +10,8 @@ import Home from './pages/Home.vue';
 import Iscrizioni from './pages/Iscrizioni.vue';
 import PGOS from './pages/Pgos.vue';
 
+import Particles from 'particles.vue3';
+
 const router = VueRouter.createRouter({
   history: VueRouter.createWebHashHistory(),
 
@@ -20,4 +22,4 @@ const router = VueRouter.createRouter({
   ],
 });
 
-createApp(App).use(router).mount('#app');
+createApp(App).use(router).use(Particles).mount('#app');

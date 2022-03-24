@@ -1,11 +1,12 @@
 <template>
+  <Particles id="tsparticles" :particlesInit="particlesInit" :particlesLoaded="particlesLoaded" url="/particles.json" />
   <div class="container mt-3">
     <div class="d-flex align-items-center justify-content-around">
       <div class="misterius">
         <RouterButton to="/" text="Home" class="" />
       </div>
       <div class="flex-grow-1">
-        <h1 class="text-center text-white my-4 py-3 display-1">PGOS</h1>
+        <h1 class="text-center text-white my-4 py-3 display-1 cardinal">PGOS</h1>
       </div>
       <div class="">
         <RouterButton to="/iscrizioni" text="Iscriviti" class="" />
