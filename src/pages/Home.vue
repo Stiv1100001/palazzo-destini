@@ -13,7 +13,7 @@ import RouterButton from '../components/RouterButton.vue';
     <Video />
   </section>
 
-  <Image image="castello-logo.png" class="" />
+  <Image image="castello-logo.png" />
 
   <section id="welcome" class="container-md mb-2 text-white">
     <Title />
