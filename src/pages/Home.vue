@@ -21,13 +21,13 @@ import RouterButton from '../components/RouterButton.vue';
   <RouterButton to="/iscrizioni" text="Iscriviti all'evento" />
 
   <Hand>
-    NON TI PREOCCUPAR DEI <br />
-    SOGNI TUOI PIU’ DISPARATI <br />
-    SE LI HAI PERSI O SE PER<br />
-    CASO TI SONO STATI RUBATI<br />
-    CERCARLI TU POTRAI NEI<br />
-    LUOGHI INESPLORATI<br />
-    DEL PALAZZO DEI DESTINI INCROCIATI
+    Non ti preoccupar dei <br />
+    Sogni tuoi piu’ disparati <br />
+    Se li hai persi o se per<br />
+    Caso ti sono stati rubati<br />
+    Cercarli tu potrai nei<br />
+    Luoghi inesplorati<br />
+    Del palazzo dei destini incrociati
   </Hand>
 
   <section id="sinfonia" class="container mb-4">
@@ -409,11 +409,11 @@ Cercala tu, se lo desideri. Ma attenzione: quando provi a strappare una maschera
       </p>
       <p>
         Possono essere fatti anche più pagamenti con un solo paypal, l’importante è che vengano sempre inseriti tutti i
-        nomi e cognomi delle persone paganti. Prima del 16 dicembre l’intera quota dovrà essere saldata sulla
-        piattaforma paypal.
+        nomi e cognomi delle persone paganti. Prima del 20 Aprile l’intera quota dovrà essere saldata sulla piattaforma
+        paypal.
       </p>
       <p>
-        Si ricorda a tutti i partecipanti che sarà obbligatorio esibire un GREEN PASS VALIDO la mattina del 18 dicembre
+        Si ricorda a tutti i partecipanti che sarà obbligatorio esibire un GREEN PASS VALIDO la mattina del 23 Aprile
         quando si entrerà alla villa nel momento della segreteria, e di munirsi ed indossare la mascherina quando saremo
         nei luoghi interni ed affollati.
       </p>
