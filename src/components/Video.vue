@@ -1,6 +1,6 @@
 <template>
   <section id="video" class="bg-black d-flex justify-content-center">
-    <video controls autoplay loop>
+    <video onloadstart="this.volume=0.2" controls autoplay loop>
       <source src="/video/IlPalazzodeiDestini.mp4" type="video/mp4" />
     </video>
   </section>

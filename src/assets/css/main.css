@@ -4,11 +4,6 @@
 }
 
 @font-face {
-    font-family: Misterius;
-    src: url("../fonts/Mysterious\ Elegance.ttf");
-}
-
-@font-face {
     font-family: Italian;
     src: url("../fonts/Italian.ttf");
 }
@@ -19,7 +14,7 @@
 
 body {
     background-color: var(--bg);
-    font-family: Misterius;
+    font-family: serif;
 }
 
 *::-webkit-scrollbar {

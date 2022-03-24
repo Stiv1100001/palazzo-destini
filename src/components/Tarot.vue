@@ -1,5 +1,5 @@
 <template>
-  <div class="flip-card" :class="rotated ? 'rotated' : ''" @click="rotated = !rotated">
+  <div class="flip-card rounded-3" :class="rotated ? 'rotated' : ''" @click="rotated = !rotated">
     <div class="flip-card-inner w-100 h-100 position-relative">
       <div class="flip-card-front position-absolute w-100 h-100">
         <img :src="`/img/tarots/down/${down}`" alt="Tarot" class="img-fluid rounded-3" />
@@ -13,9 +13,14 @@
 
 <script setup>
 import { ref } from '@vue/reactivity';
+import { Howl } from 'howler';
+import { watch } from 'vue';
 
 const rotated = ref(false);
-
+const howl = new Howl({
+  src: ['sound/Card.mp3'],
+  volume: 0.3,
+});
 const props = defineProps({
   up: {
     type: String,
@@ -25,6 +30,10 @@ const props = defineProps({
     type: String,
     required: true,
   },
+});
+
+watch(rotated, () => {
+  howl.play();
 });
 </script>
 
@@ -43,6 +52,10 @@ const props = defineProps({
   transform-style: preserve-3d;
 }
 
+.flip-card.rotated {
+  animation: ligth 0.5s linear;
+}
+
 .flip-card.rotated .flip-card-inner {
   transform: rotateY(180deg);
 }
@@ -55,5 +68,23 @@ const props = defineProps({
 
 .flip-card-back {
   transform: rotateY(180deg);
+}
+
+@keyframes ligth {
+  0% {
+    box-shadow: 0 0 0.5rem 0.25rem white;
+  }
+
+  10% {
+    box-shadow: none;
+  }
+
+  90% {
+    box-shadow: none;
+  }
+
+  100% {
+    box-shadow: 0 0 0.5rem 0.25rem white;
+  }
 }
 </style>
