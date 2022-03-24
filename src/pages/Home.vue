@@ -351,7 +351,6 @@ Siamo altro oltre alle nostre menzogne?<br>
 Sono domande cui non conosco risposta.<br>
 Cercala tu, se lo desideri. Ma attenzione: quando provi a strappare una maschera, i lacci che tengono stretta la tua improvvisamente si fanno più lenti.<br> <br>
 
-La lista sarà disponibile a breve
 "
     >
       <p>
@@ -364,6 +363,8 @@ La lista sarà disponibile a breve
         Post Scriptum Mi dicono che quell'uomo abbia pianto a lungo, quella notte, mentre la ragazza fuggiva. Lui rimase
         nudo sotto la maschera, lei ne trovò una nuova. O forse lei altro non aveva che il suo volto. Chi può dirlo?
       </p>
+
+      <RouterButton to="/pgos" text="Visualizza i PGOS" />
     </Card>
   </section>
 
