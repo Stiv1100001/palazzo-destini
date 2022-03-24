@@ -8,13 +8,14 @@ import RouterButton from '../components/RouterButton.vue';
 </script>
 
 <template>
+  <Particles id="tsparticles" :particlesInit="particlesInit" :particlesLoaded="particlesLoaded" url="/particles.json" />
   <section id="video">
     <Video />
   </section>
 
   <Image image="castello-logo.png" class="" />
 
-  <section id="welcome" class="container mb-2 text-white">
+  <section id="welcome" class="container-md mb-2 text-white">
     <Title />
   </section>
 
@@ -30,7 +31,7 @@ import RouterButton from '../components/RouterButton.vue';
     Del palazzo dei destini incrociati
   </Hand>
 
-  <section id="sinfonia" class="container mb-4">
+  <section id="sinfonia" class="container-md mb-4">
     <Card
       title="La Sinfonia dei Sette"
       incipit="Così nacque Fulcron, l’Anello, e con esso le razze dei mortali che lo abitano. Ere dopo la sua creazione,
@@ -71,7 +72,7 @@ import RouterButton from '../components/RouterButton.vue';
     </Card>
   </section>
 
-  <section id="ambientazione" class="container mb-5">
+  <section id="ambientazione" class="container-md mb-5">
     <Card title="La Nostra Ambientazione"
       ><p>
         La nostra ambientazione di divide in cinque macro regioni, ognuna con caratteristiche e peculiarità proprie.
@@ -125,7 +126,7 @@ import RouterButton from '../components/RouterButton.vue';
     non riuscivo a ridare un ordine né ai movimenti né ai pensieri.
   </Hand>
 
-  <section id="palazzo" class="container">
+  <section id="palazzo" class="container-md">
     <Card
       title="Il Palazzo dei Destini Incrociati"
       incipit="Scorre, il filo del fato. 
@@ -177,7 +178,7 @@ Indossala, caro lettore, e benvenuto.
 
   <Image image="6.png" />
 
-  <section id="grv" class="container mb-4">
+  <section id="grv" class="container-md mb-4">
     <Card
       title="Il Gioco di Ruolo dal Vivo"
       incipit="Fulcron è il mondo fantastico in cui sono ambientate le nostre fantastiche storie, ma prima di addentrarti nei suoi territori inesplorati forse è meglio
@@ -215,7 +216,7 @@ parlare di cosa sia un Gioco di Ruolo dal Vivo, anche detto Larp. Per darvi un i
     </Card>
   </section>
 
-  <section id="new-game" class="container">
+  <section id="new-game" class="container-md">
     <Card
       title="Un Nuovo Modo di Giocare"
       incipit="Nel mondo del Gioco di Ruolo dal Vivo esistono essenzialmente due grandi tipologie di evento: le Campagne Continuative e le OneShot…"
@@ -272,7 +273,7 @@ parlare di cosa sia un Gioco di Ruolo dal Vivo, anche detto Larp. Per darvi un i
 
   <Image image="8.png" />
 
-  <section id="golden-rule" class="container mb-4">
+  <section id="golden-rule" class="container-md mb-4">
     <Card title="Le Regole d'Oro del LARP" align="start">
       <ul>
         <li class="list-unstyled mb-2 border-bottom border-1 border-dark">
@@ -329,13 +330,13 @@ parlare di cosa sia un Gioco di Ruolo dal Vivo, anche detto Larp. Per darvi un i
     </Card>
   </section>
 
-  <section id="rules" class="container">
+  <section id="rules" class="container-md">
     <Card title="Il Regolamento e Regole Speciali"></Card>
   </section>
 
   <Image image="7.png" />
 
-  <section id="pgos" class="container mb-4">
+  <section id="pgos" class="container-md mb-4">
     <Card
       title="I PGOS del Palazzo dei Destini Incrociati"
       incipit="Cos'è, alla fine, una maschera? <br>
@@ -368,7 +369,7 @@ Cercala tu, se lo desideri. Ma attenzione: quando provi a strappare una maschera
     </Card>
   </section>
 
-  <section id="info" class="container">
+  <section id="info" class="container-md">
     <Card
       title="La Location e gli Orari"
       incipit="

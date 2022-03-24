@@ -38,11 +38,11 @@ const props = defineProps({
 .card-bg {
   background: linear-gradient(
     90deg,
-    var(--bg) 0%,
+    transparent 0%,
     rgba(255, 255, 255, 1) 30%,
     rgba(255, 255, 255, 1) 50%,
     rgba(255, 255, 255, 1) 70%,
-    var(--bg) 100%
+    transparent 100%
   );
 }
 
