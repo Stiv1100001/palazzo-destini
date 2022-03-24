@@ -8,6 +8,7 @@ import './assets/css/main.css';
 import * as VueRouter from 'vue-router';
 import Home from './pages/Home.vue';
 import Iscrizioni from './pages/Iscrizioni.vue';
+import PGOS from './pages/Pgos.vue';
 
 const router = VueRouter.createRouter({
   history: VueRouter.createWebHashHistory(),
@@ -15,6 +16,7 @@ const router = VueRouter.createRouter({
   routes: [
     { path: '/', component: Home, name: 'home' },
     { path: '/iscrizioni', component: Iscrizioni, name: 'iscrizioni' },
+    { path: '/pgos', component: PGOS, name: 'pgos' },
   ],
 });
 
