@@ -31,6 +31,9 @@
             quando saremo nei luoghi interni ed affollati.
           </p>
 
+          <div class="text-center my-5">
+            <a href="https://forms.gle/C8A1xEGzpE7iRaiX8" class="btn btn-lg bg-dark text-white">Iscriviti</a>
+          </div>
           <RouterButton to="/" text="Torna alla Home" />
         </div>
       </div>
