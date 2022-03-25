@@ -331,7 +331,7 @@ parlare di cosa sia un Gioco di Ruolo dal Vivo, anche detto Larp. Per darvi un i
   </section>
 
   <section id="rules" class="container-md">
-    <Card title="Il Regolamento e Regole Speciali"></Card>
+    <Card title="Il Regolamento e Regole Speciali"> WIP </Card>
   </section>
 
   <Image image="7.png" />
@@ -340,18 +340,17 @@ parlare di cosa sia un Gioco di Ruolo dal Vivo, anche detto Larp. Per darvi un i
     <Card
       title="I PGOS del Palazzo dei Destini Incrociati"
       incipit="Cos'è, alla fine, una maschera? <br>
-Cartapesta e vernice che, sul tuo volto, creano qualcosa di magnifico o di spaventoso?
-Al ballo c'era un uomo con una maschera da lupo e una donna con la maschera da agnello.<br>
-Non ti racconto il finale.<br>
-Ma sotto alla maschera cosa troviamo?<br>
-Pelle e parole che, sul tuo volto, creano qualcosa di magnifico o di spaventoso?
-Al ballo c'era un uomo senza una maschera, con occhi da lupo, e una ragazza con occhi birbanti.<br>
-Non ti racconto il finale.<br>
-Cosa c'è sotto la cartapesta, sotto la pelle?<br>
-Siamo altro oltre alle nostre menzogne?<br>
-Sono domande cui non conosco risposta.<br>
-Cercala tu, se lo desideri. Ma attenzione: quando provi a strappare una maschera, i lacci che tengono stretta la tua improvvisamente si fanno più lenti.<br> <br>
-
+        Cartapesta e vernice che, sul tuo volto, creano qualcosa di magnifico o di spaventoso?
+        Al ballo c'era un uomo con una maschera da lupo e una donna con la maschera da agnello.<br>
+        Non ti racconto il finale.<br>
+        Ma sotto alla maschera cosa troviamo?<br>
+        Pelle e parole che, sul tuo volto, creano qualcosa di magnifico o di spaventoso?
+        Al ballo c'era un uomo senza una maschera, con occhi da lupo, e una ragazza con occhi birbanti.<br>
+        Non ti racconto il finale.<br>
+        Cosa c'è sotto la cartapesta, sotto la pelle?<br>
+        Siamo altro oltre alle nostre menzogne?<br>
+        Sono domande cui non conosco risposta.<br>
+        Cercala tu, se lo desideri. Ma attenzione: quando provi a strappare una maschera, i lacci che tengono stretta la tua improvvisamente si fanno più lenti.<br> <br>
 "
     >
       <p>
